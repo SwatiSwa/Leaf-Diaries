@@ -216,9 +216,9 @@ and (max-width: 768px) {
   }
 }
 
-/**  Page -- Staff **/
+/**  Page -- menu **/
 
-#staff {
+#menu {
   background-color: #E4D29D;
   background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
 }
