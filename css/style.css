@@ -126,7 +126,7 @@ header .inbody .navbar-brand h1 {
 }
 
 header .inbody .navbar-brand span.subhead {
-  display: none;
+  display: block;
 }
 
 /**  Carousel Fade **/
@@ -373,3 +373,11 @@ footer .navbar-nav>li a {
   color: #EEC856 !important;
 }
 
+.img-circle {
+  border-radius: 50%;
+}
+
+
+.img-circle:hover {
+  transform: scale(0.8);
+}

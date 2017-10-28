@@ -53,11 +53,9 @@ $(function() {
     }
   });
 
-
   //Use smooth scrolling when clicking on navigation
   $('.navbar a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') === 
-      this.pathname.replace(/^\//,'') && 
+    if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && 
       location.hostname === this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -65,6 +63,7 @@ $(function() {
         $('html,body').animate({
           scrollTop: target.offset().top-topoffset+2
         }, 500);
+        $('button.navbar-toggle').click();//To collapse the menu on scrolling
         return false;
       } //target.length
     } //click function
