@@ -32,7 +32,7 @@ header .navbar-default .navbar-nav a {
 }
 
 header .navbar-default .navbar-nav a:hover {
-  color: rgb(212, 175, 63);
+  color: rgb(212, 63, 75);
 }
 
 header .navbar-default .navbar-nav .active a {
@@ -93,14 +93,14 @@ header .navbar-default .navbar-toggle .icon-bar {
 @media only screen
 and (max-width: 768px) {
   header .navbar-collapse.in {
-    background-color: rgba(0,0,0, .5);
+    background-color: rgba(99, 93, 93, 0.5);
   }
 }
 
 /**  nav inbody **/
 
 header .inbody {
-  background: rgba(104,73,49,.9);
+  background: rgba(126, 171, 179, 0.9);
 }
 
 header .navbar.inbody {
@@ -109,7 +109,7 @@ header .navbar.inbody {
 }
 
 header .navbar.inbody .navbar-nav {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 header .inbody .navbar-brand {
@@ -186,7 +186,7 @@ header .inbody .navbar-brand span.subhead {
 /**  Page -- Mission **/
 #mission {
   background-color: #E4D29D;
-  background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+  background-image: linear-gradient(to right, #EEF08A, #819A2D);
   border-top: 20px solid rgba(238, 200, 86, .5);
 }
 
@@ -195,6 +195,10 @@ header .inbody .navbar-brand span.subhead {
 .service {
   margin: 20px 0;
   text-align: center;
+}
+
+#services {
+  background-image: linear-gradient(to left, #b7acaa, #ef5656);
 }
 
 #services img.icon {
@@ -245,11 +249,12 @@ and (max-width: 768px) {
 /**  Page -- subscriptions **/
 
 #subscriptions {
-  padding: 0;
+  padding: 5px;
+  background-image: linear-gradient(to left, #a6bfb8, #35f1e8);
 }
 
 #subscriptions h2 {
-  display: none;
+  /*display: none;*/
 }
 
 #subscriptions blockquote {
