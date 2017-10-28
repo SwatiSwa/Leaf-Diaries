@@ -136,7 +136,7 @@ header .inbody .navbar-brand span.subhead {
 }
 
 .carousel.fade .item {
-  transition: opacity ease-out .7s;
+  transition: opacity ease-out .8s;
   left: 0;
   opacity: 0;
   top: 0;
@@ -374,10 +374,10 @@ footer .navbar-nav>li a {
 }
 
 .img-circle {
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 
 .img-circle:hover {
-  transform: scale(0.8);
+  transform: scale(1.2);
 }
