@@ -386,3 +386,21 @@ footer .navbar-nav>li a {
 .img-circle:hover {
   transform: scale(1.2);
 }
+
+.social-icon {
+  padding: 10px;
+  cursor: pointer;
+  color: #00ffde;
+}
+
+.phone-icon {
+  padding: 3px;
+  cursor: pointer;
+  color: #00ffde;
+}
+
+.contact-icon {
+  padding: 3px;
+  cursor: pointer;
+  color: #00ffde;
+}
